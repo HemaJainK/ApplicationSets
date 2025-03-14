@@ -1,0 +1,33 @@
+2025/03/14 11:07:11 ...s/setting/session.go:77:loadSessionFrom() [I] Session Service Enabled
+2025/03/14 11:07:11 ...s/storage/storage.go:176:initAttachments() [I] Initialising Attachment storage with type: local
+2025/03/14 11:07:11 ...les/storage/local.go:33:NewLocalStorage() [I] Creating new Local Storage at /home/user/gitea/data/attachments
+2025/03/14 11:07:11 ...s/storage/storage.go:166:initAvatars() [I] Initialising Avatar storage with type: local
+2025/03/14 11:07:11 ...les/storage/local.go:33:NewLocalStorage() [I] Creating new Local Storage at /home/user/gitea/data/avatars
+2025/03/14 11:07:11 ...s/storage/storage.go:192:initRepoAvatars() [I] Initialising Repository Avatar storage with type: local
+2025/03/14 11:07:11 ...les/storage/local.go:33:NewLocalStorage() [I] Creating new Local Storage at /home/user/gitea/data/repo-avatars
+2025/03/14 11:07:11 ...s/storage/storage.go:198:initRepoArchives() [I] Initialising Repository Archive storage with type: local
+2025/03/14 11:07:11 ...les/storage/local.go:33:NewLocalStorage() [I] Creating new Local Storage at /home/user/gitea/data/repo-archive
+2025/03/14 11:07:11 ...s/storage/storage.go:208:initPackages() [I] Initialising Packages storage with type: local
+2025/03/14 11:07:11 ...les/storage/local.go:33:NewLocalStorage() [I] Creating new Local Storage at /home/user/gitea/data/packages
+2025/03/14 11:07:11 ...s/storage/storage.go:219:initActions() [I] Initialising Actions storage with type: local
+2025/03/14 11:07:11 ...les/storage/local.go:33:NewLocalStorage() [I] Creating new Local Storage at /home/user/gitea/data/actions_log
+2025/03/14 11:07:11 ...s/storage/storage.go:223:initActions() [I] Initialising ActionsArtifacts storage with type: local
+2025/03/14 11:07:11 ...les/storage/local.go:33:NewLocalStorage() [I] Creating new Local Storage at /home/user/gitea/data/actions_artifacts
+2025/03/14 11:07:11 routers/init.go:138:InitWebInstalled() [I] SQLite3 support is enabled
+2025/03/14 11:07:11 routers/common/db.go:23:InitDBEngine() [I] Beginning ORM engine initialization.
+2025/03/14 11:07:11 routers/common/db.go:30:InitDBEngine() [I] ORM engine initialization attempt #1/10...
+2025/03/14 11:07:11 cmd/web.go:194:serveInstalled() [I] PING DATABASE sqlite3
+2025/03/14 11:07:15 routers/init.go:144:InitWebInstalled() [I] ORM engine initialization successful!
+2025/03/14 11:07:16 routers/init.go:85:syncAppConfForGit() [I] AppPath changed from '' to '/usr/local/bin/gitea'
+2025/03/14 11:07:16 routers/init.go:90:syncAppConfForGit() [I] CustomConf changed from '' to '/usr/local/bin/custom/conf/app.ini'
+2025/03/14 11:07:16 routers/init.go:96:syncAppConfForGit() [I] re-sync repository hooks ...
+2025/03/14 11:07:16 routers/init.go:99:syncAppConfForGit() [I] re-write ssh public keys ...
+2025/03/14 11:07:16 ...er/issues/indexer.go:76:func1() [I] PID 75: Initializing Issue Indexer: bleve
+2025/03/14 11:07:16 ...xer/stats/indexer.go:41:populateRepoIndexer() [I] Populating the repo stats indexer with existing repositories
+2025/03/14 11:07:16 ...er/issues/indexer.go:153:func2() [I] Issue Indexer Initialization took 13.523435ms
+2025/03/14 11:07:16 ...s/actions/cleanup.go:36:cleanExpiredArtifacts() [I] Found 0 expired artifacts
+2025/03/14 11:07:16 ...s/actions/cleanup.go:60:cleanNeedDeleteArtifacts() [I] Found 0 artifacts pending deletion
+2025/03/14 11:07:16 cmd/web.go:304:listen() [I] Listen: http://0.0.0.0:3000
+2025/03/14 11:07:16 cmd/web.go:308:listen() [I] AppURL(ROOT_URL): http://localhost:3000/
+2025/03/14 11:07:16 ...s/graceful/server.go:50:NewServer() [I] Starting new Web server: tcp:0.0.0.0:3000 on PID: 75
+2025/03/14 11:07:20 ...eb/routing/logger.go:102:func1() [I] router: completed GET / for [::1]:52246, 200 OK in 3.7ms @ web/home.go:32(web.Home)
